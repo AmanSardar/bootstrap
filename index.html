@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <title>Bootstrap Project</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+<section id="home" class="pt-5">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="book.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="chirm.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="office.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+  <section id="about" class="py-5">
+    <div class="container">
+      <h1 class="text-center">About Us</h1>
+      <div class="row pt-4">
+        <div class="col-md-6">
+          <img src="woman.jpg" class="img-fluid" alt="">
+
+        </div>
+        <div class="col-md-6">
+          <h1>About</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat rerum, reprehenderit sapiente ea
+            deleniti voluptatibus voluptate quaerat inventore distinctio quos esse aliquam totam quibusdam facilis
+            dolores minus consectetur doloremque eum? Quae tempora, officia rem repellendus suscipit nobis? Ex nemo
+            impedit saepe rem repellat ratione magni a reiciendis hic suscipit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat rerum, reprehenderit sapiente ea
+            deleniti voluptatibus voluptate quaerat inventore distinctio quos esse aliquam totam quibusdam facilis
+            dolores minus consectetur doloremque eum? Quae tempora, officia rem repellendus suscipit nobis? Ex nemo
+            impedit saepe rem repellat ratione magni a reiciendis hic suscipit?</p>
+            <button class="btn btn-primary">Read more...</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+  <div class="container py-5">
+    <h1 class="text-center">SERVICES</h1>
+    <div class="row pt-4">
+      <div class="col-md-4">
+        <img src="book.jpg" class="img-fluid" alt="">
+        <div class="text p-2">
+          <h3>App Development</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ad.</p>
+
+          <button class="btn btn-outline-primary">Read more..</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="chirm.jpg" class="img-fluid" alt="">
+        <div class="text p-2">
+          <h3>Web Development</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, cum.</p>
+          <button class="btn btn-outline-primary">Read more..</button>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="office.jpg" class="img-fluid" alt="">
+        <div class="text p-2">
+          <h3>Digital Marketing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nihil.</p>
+          <button class="btn btn-outline-primary">Read more..</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section id="contact">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="contact-detail d-flex align-items-center">
+            <div class="icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="phone">
+              <p>Phone:</p>
+              +977 9827172801
+            </div>
+          </div>
+          <div class="contact-detail d-flex my-5 align-items-center">
+            <div class="icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="email">
+              <p>Email:</p>
+              amansardar123@gmail.com
+            </div>
+            
+          </div>
+          <div class="contact-detail d-flex align-items-center">
+            <div class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="location">
+              <p>Location:</p>
+             Biratnagar-5, Morang
+            </div>
+          </div>
+    
+        </div>
+        <div class="col-md-6 p-3">
+          <h1>Contact Us</h1>
+          <form action="">
+            <!-- <label for="text">Name:</label> -->
+            <input type="text" placeholder="Enter Your Name">
+            <!-- <label for="email">Email:</label> -->
+            <input type="email" placeholder="Enter Your Email">
+           <!-- <label for="message">Message</label> -->
+            <textarea name="" id="" cols="10" rows="5" placeholder="Message"></textarea>
+            <input type="Submit" value="Send">
+        </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer class="p-4 text-center bg-primary mt-4">
+    <p>&copy; Copyright 2022, Allrights reserved.</p>
+  </footer>
+ 
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

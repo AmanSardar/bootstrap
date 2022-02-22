@@ -1,0 +1,49 @@
+.carousel-item{
+    height: 90vh;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 111;
+}
+.text{
+    background-color: #ccc;
+}
+.phone, .email, .location{
+    margin-left: 50px;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+p{
+    margin-bottom: 0 !important;
+}
+input, textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    margin: 10px 0;
+    padding: 10px 4px;
+}
+::placeholder{
+    color: #ccc;
+}
+footer{
+    color: #fff;
+    font-size: 20px;
+}
