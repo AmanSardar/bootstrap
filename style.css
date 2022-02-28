@@ -1,6 +1,4 @@
-.carousel-item{
-    height: 90vh;
-}
+
 html{
     scroll-behavior: smooth;
 }
@@ -46,4 +44,9 @@ input, textarea{
 footer{
     color: #fff;
     font-size: 20px;
+}
+@media (min-width:778){
+    .carousel-item{
+    height: 90vh;
+}
 }
